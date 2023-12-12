@@ -1,0 +1,175 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat';
+  margin: 0;
+}
+
+
+.header {
+  padding: 60px;
+  text-align: flex-start;
+  background: #000;
+  color: white;
+  font-size: xx-large;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(67, 67, 67)
+}
+
+
+.navbar a {
+  color: white;
+  padding: 14px 60px;
+  text-decoration: none;
+  text-align: Le
+
+}
+
+.navbar :hover {
+  color: aqua;
+}
+
+
+.contact{
+
+  color: black;
+  text-decoration: none;
+  text-align: Left;
+
+}
+
+.contact a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: Left;
+}
+
+.contact a:hover {
+  color: aqua;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.about {
+  flex: 25%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.portrait{
+ height:auto;
+ max-height:300px;
+ max-width: 350px;
+ width:100%;
+ display: inline-block
+}
+
+
+.main {
+  flex: 75%;
+  background-color: white;
+  padding: 20px;
+}
+
+.frontend{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  flex-direction:row;
+
+}
+@media(max-width:800px) {
+  .illustration{
+      flex-direction:column;
+  }
+}
+
+.graphic-work{
+    display:flex;
+    flex-direction:row;
+
+}
+@media(max-width:800px) {
+    .graphic-work{
+        flex-direction:column;
+    }
+}
+.illustration{
+    display:flex;
+    flex-direction: row;
+
+}
+@media(max-width:800px) {
+    .illustration{
+        flex-direction:column;
+    }
+}
+
+.bigimg {
+display:grid;
+width:100%;
+width:700px;
+height:auto;
+padding:5px;
+
+}
+
+.smlimg{
+  display: grid;
+ 
+  padding:5px;
+  max-width: 350px;
+  width:100%;  
+  
+}
+
+.img {
+  display: grid;
+  padding:5px;
+  max-width: 350px;
+  width:50%;  
+  
+}
+
+
+.fakeimg {
+  background-color: #aaa;
+  width: 50%;
+  padding: 2px;
+  margin:3px;
+  margin-top:6px;  
+  text-align: center;
+   
+}
+
+
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #000;
+}
+
+.footer h2 {
+  color: #aaa;
+}
+
+@media screen and (max-width: 800px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
